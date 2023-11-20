@@ -34,6 +34,13 @@
 - post_id: bigint - foreign key
 - liked_at: timestamp
 
+### bookmarks (Entity: Bookmark)
+
+- bookmark_id: bigint - primary key - auto increment
+- user_id: bigint - foreign key
+- post_id: bigint - foreign key
+- bookmarked_at: timestamp
+
 ### posts (Entity: Post)
 
 - post_id: bigint - primary key - auto increment
